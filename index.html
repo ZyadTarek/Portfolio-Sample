@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet"
+ href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <script src="js/all.js"></script>
+    </head>
+    <body data-spy="scroll" data-target="#navbarResponsive">
+      <div class="site_container">  
+            <header class="site_header">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                    <a class="navbar-brand" href="#"><i id="nav-logo"class="fab fa-aws"></i></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">   
+             
+                      <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href=".">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+                </nav>
+                <!--Start Image Slider  -->
+             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+             data-interval="5000">
+             <ol class="carousel-indicators">
+                 <li data-target="#carouselExampleIndicators" data-slide-to="0" 
+                 class="active"></li>
+                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+             </ol>
+             <div class="carousel-inner" role="listbox">
+                 <!-- slide 1 -->
+               <div class="carousel-item active" style="background-image:url(img/computers.png);">
+                 <div class="carousel-caption text-center">
+                    <h1 id= "welcome-animation">Welcome To My Portfolio!</h1>
+                    <h3>Animated Bootstrap Theme</h3>
+                    <a class="btn btn-outline-light btn-lg" href="#about">Get Started</a>
+                 </div>
+               </div>  
+                 <!-- slide 2 -->
+                 <div class="carousel-item"style="background-image:url(img/computers-2.png);">
+                     <div class="carousel-caption text-center"></div>
+                 </div>
+                 <!-- slide 3 -->
+                 <div class="carousel-item"style="background-image:url(img/computers-3.png);">
+                    <div class="carousel-caption text-center"></div>
+                 </div>
+             </div> 
+                <!--End of Carousel Inner  -->
+                <!-- Prev & Next Buttons -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators"
+                role="button" data-slide="prev">
+                 <span class="carousel-control-prev-icon"aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators"
+                role="button" data-slide="next">
+                 <span class="carousel-control-next-icon"aria-hidden="true"></span>
+                </a>
+             </div>   
+                <!--End Image Slider  -->
+            </header>
+            <!-- <section class="site_intro offset" id="intro">
+                <h1>Hello</h1>
+                <h2>Web Developer</h2>
+                <p>I'm Zyad</p>
+            </section> -->
+            <!-- Start jumbotron -->
+            <div class="jumbotron container-fluid"> 
+            <section class="offset" id="about"> 
+            <div class="section_title">
+                <h2 class="heading">About</h2>
+                <div class="heading-underline"></div>
+            </div>
+            <div class="section_content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas nec ante at luctus.Nam sed augue ac nulla tempus egestas.Cras in est pellentesque, imperdiet nisl in, placerat erat.  Sed laoreet risus at dui ornare, nec eleifend neque ultrices. 
+                Suspendisse maximus tellus arcu, a dignissim purus hendrerit eget.Vivamus sit amet elit eu metus malesuada elementum eu vel justo.Suspendisse potenti. Nullam nisi leo, efficitur eu consectetur in, vulputate et risus. Nulla aliquet risus at maximus fringilla. Mauris bibendum massa gravida, finibus urna vel, rhoncus velit. Nam velit massa, aliquet ut nulla at, molestie suscipit massa. Suspendisse quis risus lectus. Nulla laoreet magna sed mi lacinia aliquet. Nullam libero metus, dignissim id massa id, ultricies luctus mi. Nam interdum, neque vel imperdiet aliquet, nisl purus aliquet turpis, a iaculis purus eros sed velit.
+                Ut venenatis ex leo, vitae vehicula mi lobortis et.
+            </p>
+            <p> Praesent velit quam, tincidunt vel posuere non, malesuada ac orci. Aliquam lobortis pulvinar euismod.
+                Nullam pharetra nunc quis nibh lacinia, eget sollicitudin neque aliquam. 
+                Nullam tristique pharetra lectus et commodo. Curabitur ut sollicitudin libero, quis lobortis elit. 
+                Maecenas in enim at justo convallis elementum semper vel diam. Mauris accumsan, velit vel aliquet aliquet, nunc dolor finibus elit, ac scelerisque dui arcu a lorem. 
+                Phasellus maximus aliquam ornare. Aliquam finibus metus id leo venenatis lacinia. Etiam a tellus odio. Donec eget leo tincidunt, rutrum arcu tincidunt, malesuada velit. 
+                Proin euismod iaculis sapien, nec gravida massa rutrum vel. Maecenas sem justo, molestie sed mattis vitae, elementum vitae orci.
+            </p>
+            <p> Sed ornare suscipit dolor, non consectetur mauris convallis vel. Quisque pulvinar non ipsum at molestie. Curabitur aliquam enim enim, nec placerat dolor ultricies eu. 
+                Proin eget aliquet augue. Nullam vitae pretium leo. Vestibulum sem elit, aliquam nec commodo sit amet, semper eu odio. In vehicula laoreet nisi, vel pharetra felis vestibulum vel. 
+                Donec consequat elit sit amet vehicula tincidunt. In dictum elementum arcu quis fermentum.
+            </p>    
+            </div>
+            </section>
+         </div>           <!-- End jumbotron  -->
+                          <!--  -->
+         <div class="jumbotron container-fluid">           
+                                  <!-- ex-class="site_projects" -->
+            <section class="site_projects offset" id="projects">
+                <div class="col-12 text-center">
+                    <h2 class="heading">Projects</h2>
+                    <div class="heading-underline"></div>
+                    <p>These Projects are my best!</p>
+                </div>
+                <div class="row no-padding">  <!-- ex-class="project-wrapper"  -->
+                    <div class="col-sm-4">  <!--ex-class="project_item"  -->                      
+                     <strong>Project title</strong>
+                     <div class="portfolio">
+                        <a href="img/portfolio/1.png" target="_blank"> 
+                          <img src="img/portfolio/1.png">
+                        </a>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">  <!--ex-class="project_item"  -->                      
+                        <strong>Project title</strong>
+                        <div class="portfolio">
+                           <a href="img/portfolio/2.png" target="_blank"> 
+                             <img src="img/portfolio/2.png">
+                           </a>
+                       </div>
+                       </div>
+                       <div class="col-sm-4">  <!--ex-class="project_item"  -->                      
+                        <strong>Project title</strong>
+                        <div class="portfolio">
+                           <a href="img/portfolio/3.png" target="_blank"> 
+                             <img src="img/portfolio/3.png">
+                           </a>
+                       </div>
+                       </div>
+                       <div class="col-sm-4">  <!--ex-class="project_item"  -->                      
+                        <strong>Project title</strong>
+                        <div class="portfolio">
+                           <a href="img/portfolio/4.png" target="_blank"> 
+                             <img src="img/portfolio/4.png">
+                           </a>
+                       </div>
+                       </div>
+                       <div class="col-sm-4">  <!--ex-class="project_item"  -->                      
+                        <strong>Project title</strong>
+                        <div class="portfolio">
+                           <a href="img/portfolio/5.png" target="_blank"> 
+                             <img src="img/portfolio/5.png">
+                           </a>
+                       </div>
+                       </div>
+                       <div class="col-sm-4">  <!--ex-class="project_item"  -->                      
+                        <strong>Project title</strong>
+                        <div class="portfolio">
+                           <a href="img/portfolio/6.png" target="_blank"> 
+                             <img src="img/portfolio/6.png">
+                           </a>
+                       </div>
+                       </div>
+                       <div class="narrow text-center">
+                         <div class="col-12">
+                         <p class="lead">Check my Linkedin profile?</p>
+                         <a class="btn btn-secondary btn-md"
+                         href="https://www.linkedin.com/in/zyad-tarek-16a76613b/?fbclid=IwAR32oBUnxEc8XNgxj2VxNUhMhjonGh7frm0zhESbTCAR_2KBvdj2Zkm2Uz0" 
+                         target="_blank">MyLinkedin</a>
+                        </div>  
+
+                       </div>
+                    <!-- <div class="project_item">
+                        <strong>Project title</strong>
+                        <img src="http://lorempixel.com/400/400/nature">
+                       </div>
+                         <div class="project_item">
+                         <strong>Project title</strong>
+                         <img src="http://lorempixel.com/400/400/nature">
+                            </div>
+                            <div class="project_item">
+                                <strong>Project title</strong>
+                                <img src="http://lorempixel.com/400/400/nature">
+                            </div> -->
+                </div>
+            </section>
+         </div>
+            <section class="offset" id="team"> 
+                <div class="col-12 text-center"> <!-- ex-class="section_title" -->
+                    <h2 class="heading">Team</h2>
+                    <div class="heading-underline"></div>
+                    <div class="row padding">
+                                   <!-- First Card -->
+                      <div class="col-md-6">
+                          <div class="card text-center">
+                              <img class="card-img-top" src="img/team/team1.png">
+                              <div class="card-body">
+                                  <h4>Jessica Miller</h4>
+                                  <p>"I have over 10 years of experience in technology
+                                      and haven't worked with a better team than AWS "</p>
+                              </div>
+                          </div>
+                      </div>
+                                   <!-- Second Card -->
+                      <div class="col-md-6">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="img/team/team2.png">
+                            <div class="card-body">
+                                <h4>Charles Davis</h4>
+                                <p>"I have over 10 years of experience in technology
+                                    and haven't worked with a better team than AWS "</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>   <!-- End of Row -->
+                </div>
+                <!-- <div class="section_blog">
+                <div class="project_item">
+                    <strong>Project title</strong>
+                </div>
+                </div> -->
+            </section>
+             <div id="contact" class="offset">
+                <footer class="row justify-content-center">
+                   <div class="col-md-5 text-center">
+                    <i id="footer-logo"class="fab fa-aws justify-content-center"></i>  
+                    <p>How to reach us ?</p> 
+                    <strong>Contact Info</strong>
+                    <p><i class="fas fa-phone-square-alt fa-lg"></i>(+20) 128-3023-511
+                    <br><i class="fas fa-envelope fa-lg"></i> <span>zyad.tarek175@gmail.com</span></p>
+                    
+                    <a href="https://www.facebook.com/zyad.tarek.00/"
+                     target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/___z.y.a.d___/?fbclid=IwAR3b6zafffj-JQ89F3Kt2nAvkfgqGoILsjfs_87wt-Xxy3xSyyHiCx-m90c"
+                     target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                     <a href="https://twitter.com/ZyadTarek19" 
+                     target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                     <a href="https://www.linkedin.com/in/zyad-tarek-16a76613b/?fbclid=IwAR32oBUnxEc8XNgxj2VxNUhMhjonGh7frm0zhESbTCAR_2KBvdj2Zkm2Uz0" 
+                     target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                  </div> 
+                    <hr class="socket">
+                    All Rights Reserved &copy 2020  
+                </footer>           <!-- End Row -->
+             </div>   
+            
+     </div>   
+    </body>
+ <script src="js/jquery-3.5.1.min.js"></script>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
